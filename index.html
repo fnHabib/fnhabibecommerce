@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7f52a61c23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <title> E-commerce SmartShop </title>
+</head>
+
+<body>
+    <!-- top bar item -->
+    <section id="topBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="top-ul">
+                        <li class="top-li"><i class="fas fa-phone" ></i> +88 01879127563</li>
+                        <li class="top-li"> <span class="sc-line"></span> </li>
+                        <li class="top-li"><i class="far fa-envelope"></i>info@smartshop.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- start nav section -->
+
+    <section id="nav-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="nav-bar">
+                        <div class="logo">
+                            <img src="img/carusel/mainlogo.png" alt="mainlogo" width="200px">
+                        </div>
+                        <div class="input-item">
+                            <input type="text" placeholder="Search here" class="s-input">
+                        </div>
+                        <div class="search-item">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    
+                            <i class="fas fa-cart-plus icon-1"></i>
+                            <i class="far fa-bell icon-1"></i>
+                            <i class="far fa-comment icon-1"></i>
+                            <i class="fas fa-user icon-1"></i>
+                            <i class="fas fa-bars menu-icon" id="" onclick="menutoggle()"></i>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end nav section -->
+    <!-- top menu start -->
+    <section id="menuIm">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+        
+            <div class="nav mynav">
+                <div class="flipmenu">
+                    <ul class="myul">
+                        <li class="menuS"><i class="fas fa-bars"></i></li>
+                        <li class="menuS">Categories</li>
+                        <li class="menuS"><i class="fas fa-chevron-down"></i></li>
+                    </ul>
+                </div>
+        <nav>
+            <ul id="MenuItem">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</div>
+</div>
+
+    </section>
+
+    <!-- top menu end -->
+    <!-- start carusel section -->
+    <section id="caurosel">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1>Eid Dhamaka Offer</h1>
+                    <div class="offer">
+                        <img src="img/carusel/offer.png" alt="offer">
+                    </div>
+                    <div class="my-button">
+                        <span>Buy Now</span>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/carusel/carousel1.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carusel/carousel2.png" class="d-block w-100 " alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carusel/carousel3.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/carusel/carousel4.png" class="d-block w-100" alt="...">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--end carusel section  -->
+
+    <!-- start featured product -->
+    <section id="featuerd">
+        <div class="small-container">
+            <h2 class="tittel">Featured Product</h2>
+            <div class="row">
+                <div class="col-3 featuerd">
+                    <img src="img/ladywatch3.jpg" alt="">
+                    <h4>Golden Stone Watch</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i><br>
+                    <div class="price">
+                        <span>&#x09F3 <span>1550</span></span>
+                        <p class="discount">Was &#x09F3<p>1800</p></p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <a href="productdetails.html"><img src="img/leathershoes1.jpg" alt="product"></a>
+                    <h4>Pure Leather Shoe</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i><br>
+                    <div class="price">
+                        <span>&#x09F3<span>2500</span></span>
+                        <p class="discount">Was &#x09F3<p>3800</p></p>
+                    </div>
+                    <div class="add-button">
+                       
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/lightcover.jpg" alt="">
+                    <h4>Glitter BackCover</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i><br>
+                    <div class="price">
+                        <span>&#x09F3 <span>450</span></span>
+                        <p class="discount">Was &#x09F<p>3800</p></p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/jsdun1.jpg" alt="">
+                    <h4>Smart Wallet</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 1500</span>
+                        <p class="discount">Was &#x09F3 2000</p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+
+                <div class="col-3 featuerd">
+                    <img src="img/note8.jpg" alt="">
+                    <h4>Note8 BackCover</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 400</span>
+                        <p class="discount">Was &#x09F3 600</p>
+                    </div>
+                    <div class="add-button">
+                       
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end featuerd product -->
+    <!-- start latest product -->
+
+    <section id="featuerd">
+        <div class="small-container">
+            <h2 class="tittel">Latest Product</h2>
+            <div class="row">
+                <div class="col-3 featuerd">
+                    <img src="img/smartglase1.jpg" alt="">
+                    <h4>Smart Glass</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 4000</span>
+                        <p class="discount">Was &#x09F3 4500</p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/ghee1.jpg" alt="">
+                    <h4>Pure Gawa Ghee</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 850</span>
+                        <p class="discount">Was &#x09F3 1250</p>
+                    </div>
+                    <div class="add-button">
+                       
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/headphone1.jpg" alt="">
+                    <h4>Bluetooth Headphone</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 1150</span>
+                        <p class="discount">Was &#x09F3 1550</p>
+                    </div>
+                    <div class="add-button">
+                      
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/alexa1.jpg" alt="">
+                    <h4>Google Alexa</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 3500</span>
+                        <p class="discount">Was &#x09F3 4000</p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+
+                <div class="col-3 featuerd">
+                    <img src="img/smartlight.jpg" alt="">
+                    <h4>Smart Led Light</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 550</span>
+                        <p class="discount">Was &#x09F3 1050</p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-3 featuerd">
+                    <img src="img/lighter1.jpg" alt="">
+                    <h4>Premium Lighter</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 250</span>
+                        <p class="discount">Was &#x09F3 350</p>
+                    </div>
+                    <div class="add-button">
+                      
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/keychain1.png" alt="">
+                    <h4>Customised Keychain</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 150</span>
+                        <p class="discount">Was &#x09F3 230</p>
+                    </div>
+                    <div class="add-button">
+                       
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/smarthelmet 1.jpg" alt="">
+                    <h4>Smart Bike Helmet</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 2500</span>
+                        <p class="discount">Was &#x09F3 2800</p>
+                    </div>
+                    <div class="add-button">
+                    
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+                <div class="col-3 featuerd">
+                    <img src="img/smartpen2.jpg" alt="">
+                    <h4>Smart New Pen</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 1500</span>
+                        <p class="discount">Was &#x09F3 2200</p>
+                    </div>
+                    <div class="add-button">
+                        
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+
+                <div class="col-3 featuerd">
+                    <img src="img/smartmouse1.jpg" alt="">
+                    <h4>Smart Mouse</h4>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star star-icon"></i>
+                    <i class="fa fa-star-o star-icon"></i></br>
+                    <div class="price">
+                        <span>&#x09F3 250</span>
+                        <p class="discount">Was &#x09F3 350</p>
+                    </div>
+                    <div class="add-button">
+                       
+                        <p class="my-cart">Add To Cart</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- end latest product -->
+
+    <!-- start offer section -->
+    <section id="offer">
+        <div class="small-container">
+            <h2 class="tittel">Latest Offer</h2>
+            <div class="row">
+                <div class="col-md-6 ">
+                    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="img/smart band1.png" class="d-block w-100" alt="offerimg">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="img/smart band.png" class="d-block w-100" alt="offerimg">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/smart band2.png" class="d-block w-100" alt="offerimg">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 details">
+                    <p>Exclusively Availabel On Smart Shop</p>
+                    <div class="my-tittel">
+                        <h3>Smart Band 4</h3>
+                    </div>
+                    <span>Mi Smart Band 4 is an affordable fitness band from Xiaomi. With this, the fourth iteration of
+                        the Mi Band, Xiaomi has introduced a colour display and swim tracking, and still claims to offer
+                        20-day battery life. The Mi Band lineup began with a product that didn't even have a display and
+                        now we get a device with an AMOLED colour display and lots of watch faces, which are nice to
+                        have. The Mi Smart Band 4 costs a little more than the Mi Band 3, but are its new features worth
+                        the asking price? We used it for a week to find out.</span>
+                    <div class="buy-button">
+                        <p>Buy Now</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- end offer section -->
+
+    <!-- start testimonial -->
+
+    <section id="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                                totam. Deleniti porro ipsum possimus sapiente
+                                sunt libero perferendis nulla veniam?</p>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star-o star-icon"></i></br>
+
+                            <img src="img/person1.jpg" alt="">
+                            <h4>Habibur Rahman</h4>
+
+                        </div>
+                        <div class="item">
+
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                                totam. Deleniti porro ipsum possimus sapiente
+                                sunt libero perferendis nulla veniam?</p>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star-o star-icon"></i></br>
+
+                            <img src="img/person2.jpg" alt="">
+                            <h4>Onika Islam</h4>
+                        </div>
+                        <div class="item">
+
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                                totam. Deleniti porro ipsum possimus sapiente
+                                sunt libero perferendis nulla veniam?</p>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star-o star-icon"></i></br>
+
+                            <img src="img/person3.jpg" alt="">
+                            <h4>Ariful Islam Raju</h4>
+                        </div>
+                        <div class="item">
+
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                                totam. Deleniti porro ipsum possimus sapiente
+                                sunt libero perferendis nulla veniam?</p>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star-o star-icon"></i></br>
+
+                            <img src="img/person4.jpg" alt="">
+                            <h4>Iftekhar Rayhan</h4>
+                        </div>
+                        <div class="item">
+
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                                totam. Deleniti porro ipsum possimus sapiente
+                                sunt libero perferendis nulla veniam?</p>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star star-icon"></i>
+                            <i class="fa fa-star-o star-icon"></i></br>
+
+                            <img src="img/person5.jpg" alt="">
+                            <h4>Ruma Akther</h4>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonial -->
+
+    <!-- start brand section -->
+    <section id="brand-item">
+        <div class="brand">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="img/addidaslogo.png" alt="logo">
+                    </div>
+                    <div class="col-2">
+                        <img src="img/samsunglogo.jpg" alt="logo">
+                    </div>
+                    <div class="col-2">
+                        <img src="img/xiaomi.jpg" alt="logo">
+                    </div>
+                    <div class="col-2">
+                        <img src="img/nokia.png" alt="logo">
+                    </div>
+                    <div class="col-2">
+                        <img src="img/cocacola.svg" alt="logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end brand section -->
+    <!-- start footer section -->
+    <section id="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="footer-col-1">
+                    <h4>Download Our App</h4>
+                    <p>It's Easy to use for our easy dashboard.</p>
+                    <img src="img/googleapp.png" alt="logo" width="120px">
+                    <img src="img/applestore.png" alt="logo" width="120px">
+                </div>
+                <div class="footer-col-2">
+                    <img src="img/carusel/mainlogo.png" alt="logo" width="200px">
+                    <p>Now Shopping in smart way use our smart shop</p>
+                </div>
+                <div class="footer-col-3">
+                    <h4>Useful LInks</h4>
+                    <ul>
+                        <li><a href="#">Cupons</a></li>
+                        <li><a href="#">Blog Posts</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h4>Fallow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/niloyrahaman123" target="_blank"><i
+                                    class="fab fa-facebook-square"></i>Facebook</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCAgsK8VPAyxJ15wfDp9cREA" target="_blank"><i
+                                    class="fab fa-youtube-square"></i>Youtube</a></li>
+                        <li><a href="https://www.linkedin.com/in/habibur-rahman-76603720b/" target="_blank"><i
+                                    class="fab fa-linkedin"></i>Linkedin</a></li>
+                        <li><a href="https://twitter.com/habib20023484" target="_blank"><i
+                                    class="fab fa-twitter-square"></i>Twitter</a></li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-12 line">
+
+            </div>
+            <h4 class="copyri8">CopyRight &#169 2021 Habibur Rahman</h4>
+        </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+        integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+        integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
+    </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.autoplay.js"></script>
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            items: 4,
+            rtl: true,
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true
+        });
+        $('.play').on('click', function () {
+            owl.trigger('play.owl.autoplay', [2000])
+        })
+        $('.stop').on('click', function () {
+            owl.trigger('stop.owl.autoplay')
+        });
+    </script>
+</body>
+
+</html>
