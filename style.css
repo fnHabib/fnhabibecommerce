@@ -746,11 +746,11 @@ a.abtn1 {
     content: "";
     width: 25px;
     height: 100px;
-    background: #fb6800;
+    background: #fdfcfc70;
     position: absolute;
     bottom: -30px;
     left: -30px;
-    box-shadow: 0 0 10px #ff7504;
+    box-shadow: 0 0 10px #faf9f8;
     transform:translateX(-30px);
     transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
@@ -769,11 +769,11 @@ a.abtn1 {
     content: "";
     width: 25px;
     height: 100px;
-    background: rgba(239, 241, 113, 0.829);
+    background: rgba(253, 246, 246, 0.5);
     position: absolute;
     bottom: -30px;
     left: -30px;
-    box-shadow: 0 0 10px rgb(211, 203, 166);
+    box-shadow: 0 0 10px rgba(255, 255, 253, 0.527);
     transform:translateX(-30px);
     transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
