@@ -57,4 +57,3 @@ const decreaseNumber = (incdec,itemprice) => {
         }
     }
    
-        

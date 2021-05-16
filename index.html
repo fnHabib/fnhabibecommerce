@@ -56,14 +56,31 @@
                             <i class="fas fa-cart-plus icon-1"></i>
                             <i class="far fa-bell icon-1"></i>
                             <i class="far fa-comment icon-1"></i>
-                            <i class="fas fa-user icon-1"></i>
+                            <i class="fas fa-user icon-1 sing-in" onclick="myFunction()"></i>
                             <i class="fas fa-bars menu-icon" id="" onclick="menutoggle()"></i>
                         
 
                     </div>
+                    <div class="sing-in1" id="myId">
+                        <div class="tittel1"> 
+                            <span>Login</span>
+                        </div>
+                        <div class="input1">
+                        <span class="loginName">Phone Number</span><br>
+                        <input type="text" placeholder="01xxxxxxx" class="logInput"><br>
+                        <span class="loginName">Password</span><br>
+                        <input type="password" placeholder="password" class="logInput">
+                    </div>
+                    <div class="loginBtn">
+                        <span class="logBtn">LogIn</span>
+                    </div>
+                    <p>Don't have an account? <a href="" class="signUp">Sign Up</a></p>
+                    <a href="" class="forgotPage">Forgot Password</a>
+                    </div>
                 </div>
             </div>
         </div>
+
     </section>
     <!-- end nav section -->
     <!-- top menu start -->
@@ -677,6 +694,14 @@
         $('.stop').on('click', function () {
             owl.trigger('stop.owl.autoplay')
         });
+        function myFunction() {
+  var x = document.getElementById("myId");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
     </script>
 </body>
 

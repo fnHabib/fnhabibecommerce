@@ -788,3 +788,83 @@ a.abtn1 {
     -ms-transform:  translateX(180px);
     -o-transform:  translateX(180px);
 }
+.sign-in{
+    position: relative;
+}
+.sing-in1 {
+    width: 242px;
+    height: 380px;
+    background:rgba(228 225 225 / 88%);
+    position: absolute;
+    z-index: 1;
+    right: -11px;
+    top: 89px;
+    display: none;
+}
+.tittel1 {
+    width: 100%;
+    height: 50px;
+    background: aliceblue;
+    color:#B1B6BE;
+    text-align: left;
+    font-family: 'Changa';
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 9px;
+}
+.input1 {
+    text-align: left;
+    font-size: 14px;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input.logInput {
+    background: #E8F0FE;
+    margin-bottom: 10px;
+    padding:13px;
+    outline: none;
+    border: 1px solid #bfc5d0;
+}
+span.loginName {
+    color: #717275;
+    font-size: 18px;
+    font-family: 'Changa';
+}
+.loginBtn {
+    width: 188px;
+    height: 48px;
+    background: darkred;
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-top: 23px;
+    box-shadow: 0 0 0 1px white;
+    padding: 11px;
+    margin-bottom: 15px;
+}
+span.logBtn {
+    font-size: 20px;
+    color: beige;
+    font-family: sans-serif;
+    text-transform: uppercase;
+
+}
+a.signUp {
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+}
+.signUp:hover{
+    text-decoration: underline;
+    color: red;
+}
+a.forgotPage {
+    font-size: 15px;
+    text-decoration: none;
+    color: red;
+}
+.forgotPage:hover {
+    text-decoration: underline;
+
+}
