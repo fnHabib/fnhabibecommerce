@@ -56,4 +56,17 @@ const decreaseNumber = (incdec,itemprice) => {
             
         }
     }
-   
+   // add & remove css class
+let year1 = document.getElementById('year');
+let month1 =  document.getElementsByClassName('month-by');
+let date1 = document.getElementsByClassName('bate-by');
+function myfun() {
+    if(year1.value = 1){
+    this.month1.addClass("active");
+        
+    }else{
+        month1.disable
+    }
+}
+
+

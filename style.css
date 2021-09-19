@@ -868,3 +868,67 @@ a.forgotPage {
     text-decoration: underline;
 
 }
+.full-item {
+    width: 600px;
+    height: 450px;
+    background: #f3f3f3;
+    margin-left: 250px;
+}
+p.s-name {
+    font-size: 20px;
+    font-family: inherit;
+    text-align: left;
+    padding: 5px;
+    color: rgba(125, 118, 118);
+    font-weight: bolder;
+    
+}
+input.m-input {
+    font-size: 15px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #c3c2c2;
+    background: #c8c8e4;
+}
+.singup-slogan{
+    font-size: larger;
+    font-weight: 400;
+    padding: 5px;
+}
+.flex-box-conatiner{
+    display: flex;
+
+}
+.flex-box-conatiner div{
+    display: flex;
+    justify-content: space-around;
+}
+.custom-border{
+   
+    position: relative;
+}
+.heffect{
+    width: 0px;
+    height: 0px;
+    background-color: red;
+    opacity: 1;
+    box-shadow: 0 32px 0 -10px #fff, -16px 0 0 -10px #fff, 0 -16px 0 -10px #fff,     16px 0 0 -10px #fff, 0 0 0 3px #fe6801;
+    position: absolute;
+    left: 270px;
+    top: 21px;
+    z-index: 1;
+    visibility: hidden;
+    transition: all  1s;
+    -webkit-transition: all  1s;
+    -moz-transition: all  1s;
+    -ms-transition: all  1s;
+    -o-transition: all  1s;
+}
+/* .custom-border:hover .heffect{
+    visibility: visible;
+    width:600px;
+    height: 400px;
+    opacity: 0.5;
+
+} */
+
