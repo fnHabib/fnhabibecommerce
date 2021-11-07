@@ -115,12 +115,12 @@ i.far.fa-envelope {
 }
 section#nav-bar {
     width: 100%;
-    height: 100px;
+    height: 110px;
     background:white;
 }
 .mynav {
     align-items: center;
-    height: 60px;
+    height: 70px;
 }
 .nav ul {
     text-decoration: none;
@@ -131,6 +131,7 @@ section#nav-bar {
     /* float: right; */
     margin: auto;
     padding: 20px;
+    margin-left: 5px;
 }
 
 .nav ul li a {
@@ -138,8 +139,8 @@ section#nav-bar {
     font-size: 22px;
     color: whitesmoke;
     font-weight: bold;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
@@ -147,6 +148,10 @@ section#nav-bar {
     text-transform: uppercase;
     font-family: fangsong;
     position: relative;
+    padding: 10px;
+    margin-top: 5px;
+    
+    
 }
 
 
@@ -160,7 +165,9 @@ section#nav-bar {
     border-bottom: 1px solid yellowgreen;
     color: #333;
     background-color: lightblue;
-    padding: 10px;
+    font-size: 25px;
+ 
+    /* padding: 10px; */
 }
     
 i.fas.fa-cart-plus {
@@ -267,32 +274,33 @@ section#featuerd{
     min-width: 228px!important;
     padding: 10px;
     margin:13.1px!important;
+   
 }
 .col-3 img{
     width: 200px;
     cursor: pointer;
     transition: 1s;
     height: 200px;
+    transform: scale(1);
     -webkit-transition: 1s;
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
 }
 .col-3 img:hover{
-    opacity: 0.5;
-    transform: translateY(-10px);
-    box-shadow: 0 0 10px;
-    -webkit-transform: translateY(-10px);
-    -moz-transform: translateY(-10px);
-    -ms-transform: translateY(-10px);
-    -o-transform: translateY(-10px);
+    opacity: 1;
+    transform: scale(1.1);
+    box-shadow: 0 32px 0 -10px #fff, 
+    -16px 0 0 -10px #fff, 0 -16px 0 -10px #fff,    
+     16px 0 0 -10px #fff, 0 0 0 3px #fe6801;
+    
 }
 .col-3.featuerd {
     width: 18%;
     font-family: 'Changa', sans-serif;
 }
 .col-3 h4{
-    color: rgb(83, 83, 83);
+    color: rgb(36, 22, 22);
     font-weight: bold;
     font-size: 20px;
 }
@@ -423,7 +431,7 @@ i.star-icon{
     box-shadow: black;
 }
 .details {
-    margin-top: 100px!important;
+    margin-top: 50px!important;
     
 }
 .col-md-12{
@@ -438,7 +446,7 @@ i.star-icon{
     margin-bottom: 50px!important;
 }
 .col-2 img {
-    width: 100%;
+    width: 350%;
     height: 100%;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
@@ -448,6 +456,7 @@ i.star-icon{
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
+    position: relative;
 }
 .col-2 img:hover{
     filter: grayscale(0%);
@@ -481,7 +490,7 @@ i.star-icon{
 }
 
 .footer {
-    background: slategrey;
+    background: rgb(15, 19, 22);
     padding-bottom: 5px;
     
 }
@@ -543,6 +552,7 @@ i.star-icon{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 5px;
+    color: wheat;
 }
 i.fas.fa-bars.menu-icon {
     font-size: 29px;
@@ -792,14 +802,30 @@ a.abtn1 {
     position: relative;
 }
 .sing-in1 {
-    width: 242px;
+    width:242px;
     height: 380px;
     background:rgba(228 225 225 / 88%);
     position: absolute;
     z-index: 1;
-    right: -11px;
-    top: 89px;
-    display: none;
+    right: 63px;
+    top: 350px;
+    
+    
+  
+    transform: scaleY(0);
+    transition: all 1s ease-in-out;
+ 
+    -webkit-transition: all 1s ease-in-out;
+    
+}
+
+.sing-inshwow{
+    
+    top: 151px;
+    transform: scaleY(1);
+    
+    
+  
 }
 .tittel1 {
     width: 100%;
@@ -910,7 +936,7 @@ input.m-input {
 .heffect{
     width: 0px;
     height: 0px;
-    background-color: red;
+    background-color: rgba(197, 159, 159, 0.082);
     opacity: 1;
     box-shadow: 0 32px 0 -10px #fff, -16px 0 0 -10px #fff, 0 -16px 0 -10px #fff,     16px 0 0 -10px #fff, 0 0 0 3px #fe6801;
     position: absolute;
@@ -924,6 +950,7 @@ input.m-input {
     -ms-transition: all  1s;
     -o-transition: all  1s;
 }
+
 /* .custom-border:hover .heffect{
     visibility: visible;
     width:600px;
@@ -932,3 +959,6 @@ input.m-input {
 
 } */
 
+.text{
+    color: wheat;
+}
